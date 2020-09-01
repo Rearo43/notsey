@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,12 @@
   },
   "homepage": "https://github.com/Rearo43/notsey#readme",
   "dependencies": {
-    "jest": "^26.4.1",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "faker": "^5.0.0",
+    "jest": "^26.4.2"
   }
 }
