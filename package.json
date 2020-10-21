@@ -19,8 +19,13 @@
   },
   "homepage": "https://github.com/Rearo43/notsey#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "is-url": "^1.2.4",
     "minimist": "^1.2.5",
-    "mongoose": "^5.10.0"
+    "mongoose": "^5.10.9",
+    "my-package": "0.0.0",
+    "superagent": "^5.2.1",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "@code-fellows/supergoose": "^1.0.11",
